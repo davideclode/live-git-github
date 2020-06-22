@@ -4,7 +4,7 @@ const app = express();
 // const port = 3000
 
 app.get('/teste', (req, res) => {
-    res.json({ hello: "wold 2" });
+    res.json({ hello: "Primeiro teste da aplicação" });
 });
 
 app.listen(3333);
